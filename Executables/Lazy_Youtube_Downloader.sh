@@ -37,8 +37,8 @@ youtube-dl --output='%(title)s.%(ext)s' --console-title --continue \"${video_url
 youtube-dl --output='%(title)s.%(ext)s' --console-title --continue "${video_url}"
 
 echo "\
-下載程序已執行完畢
-Download process completed"
+下載命令已執行完畢
+Download command has completed"
 
 # 正常結束script程式
 exit 0
