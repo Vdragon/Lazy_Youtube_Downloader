@@ -25,6 +25,7 @@
 mkdir --parents /usr/local/src/Lazy_Youtube_Downloader
 cp --recursive . /usr/local/src/Lazy_Youtube_Downloader
 cd /usr/local/src/Lazy_Youtube_Downloader
+mkdir --parents /usr/local/bin
 ln --symbolic --force "${PWD}/Executables/Lazy_Youtube_Downloader.sh" /usr/local/bin/lazy-youtube-dl
 
 # 正常結束
