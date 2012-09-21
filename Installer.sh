@@ -28,5 +28,7 @@ cd /usr/local/src/Lazy_Youtube_Downloader
 mkdir --parents /usr/local/bin
 ln --symbolic --force "${PWD}/Executables/Lazy_Youtube_Downloader.sh" /usr/local/bin/lazy-youtube-dl
 
+echo "Lazy Youtube Downloader should be installed."
+
 # 正常結束
 exit 0
